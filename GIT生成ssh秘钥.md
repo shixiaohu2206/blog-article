@@ -1,29 +1,29 @@
 ---
-title: GIT生成ssh秘钥
+title: git生成ssh秘钥
 date: 2017-10-20
 tags:
   - Git
   - SSH
 categories:
-  - 代码
+  - Code
 ---
 
-```shell
-//查看是否存在秘钥
+```bash
+// 查看是否存在秘钥
 $ cd ~/.ssh
 
-//配置用户相关信息
+// 配置用户相关信息
 $ git config –global user.name ‘xxxxx’
 $ git config –global user.email ‘xxx@xx.xxx’
 
-//查看用户配置的相关信息
+// 查看用户配置的相关信息
 $ git config user.name
 $ git config user.email
 
-//生成秘钥 (邮箱为上方配置的邮箱)
+// 生成秘钥 (邮箱为上方配置的邮箱)
 $ ssh-keygen -t rsa -C ‘xxx@xx.xxx’
 
-//连按三个空格
+// 连按三个空格
 Generating public/private rsa key pair.
 Enter file in which to save the key (/c/Users/Mr.Yang/.ssh/id_rsa):
 Enter passphrase (empty for no passphrase):

@@ -5,7 +5,7 @@ tags:
   - JavaScript
   - Promise
 categories:
-  - 代码
+  - Code
 ---
 
 ```javascript
@@ -13,8 +13,8 @@ categories:
 function isPromise(obj) {
   return (
     !!obj &&
-    (typeof obj === "object" || typeof obj === "function") &&
-    typeof obj.then === "function"
-  );
+    (typeof obj === 'object' || typeof obj === 'function') &&
+    typeof obj.then === 'function'
+  )
 }
 ```

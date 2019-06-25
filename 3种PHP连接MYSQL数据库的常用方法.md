@@ -1,16 +1,16 @@
 ---
-title: 3种PHP连接MySql数据库的常用方法
+title: PHP连接MySql常用方法
 date: 2017-11-30
 tags:
   - PHP
   - MySql
 categories:
-  - 代码
+  - Code
 ---
 
 ## 面向过程连接
 
-```
+```php
 // 配置
 $mysql_server="localhost";
 $mysql_username="数据库用户名";
@@ -29,7 +29,7 @@ $row=mysql_fetch_row($result);
 
 ## 面向对象连接
 
-```
+```php
 $db=new mysqli($dbhost,$username,$userpass,$dbdatabase);
 if(mysqli_connect_error()){
 echo "Could not connect to database.";
@@ -41,7 +41,7 @@ $row=$result->fetch_row();
 
 ## PDO 连接方式
 
-```
+```php
 $dsn="mysql:host=".$dbhost.";dbname=".$dbdatabase.";"
 $dbh=new PDO($dsn,$username,$userpass);
 $stmt=$dbh->query("SELECT id,name FROM user");

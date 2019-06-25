@@ -6,14 +6,14 @@ tags:
   - NodeJS
   - Linux
 categories:
-  - 代码
+  - Code
 ---
 
 ## 安装 NodeJS
 
-> 首先下载 node 安装包，我喜欢下载编译好的，下载完毕，解压后，直接软连接设置成全局，即可使用。
+> 首先下载 node 安装包，下载编译好的，下载完毕，解压后，直接软连接设置成全局，即可使用
 
-```shell
+```bash
 #进入安装包放置的位置
 cd /usr/local/src
 
@@ -33,7 +33,7 @@ node -v
 
 ## 安装 Express 框架
 
-```shell
+```js
 //首先安装马云爸爸的淘宝cnpm命令
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 
@@ -65,7 +65,7 @@ Express欢迎页面呈现
 
 ## 安装 Forever 守护模块
 
-```
+```js
 // https://github.com/foreverjs/forever
 // 可以使用Lniux命令，后台运行node服务
 nohup npm start &

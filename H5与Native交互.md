@@ -4,7 +4,7 @@ date: 2019-04-15 17:35:06
 tags:
   - JavaScript
 categories:
-  - 代码
+  - Code
 ---
 
 ### 介绍三种 APP 的开发模式
@@ -87,11 +87,11 @@ private Object getJSBridge(){
 
 ##### JS 调用
 
-```JS
+```js
 //调用方法一
-window.JSBridge.foo(); //返回:'foo'
+window.JSBridge.foo() //返回:'foo'
 //调用方法二
-window.JSBridge.foo2('test');//返回:'foo2:test'
+window.JSBridge.foo2('test') //返回:'foo2:test'
 ```
 
 ##### 4.4 版本前

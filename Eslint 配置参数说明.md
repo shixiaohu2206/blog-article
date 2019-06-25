@@ -5,7 +5,7 @@ tags:
   - JavaScript
   - Eslint
 categories:
-  - 代码
+  - Code
 ---
 
 ### Eslint 配置参数说明

@@ -4,7 +4,7 @@ date: 2018-08-15
 tags:
   - VsCode
 categories:
-  - 代码
+  - Note
 ---
 
 - Annotator
@@ -36,6 +36,3 @@ categories:
   TypeScript Importer
 - vscode-icons
   图标
-
-
-
